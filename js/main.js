@@ -17,8 +17,8 @@ window.onload = function() {
   let stt = new rpg.StateList
 
   // stt.add(new my.StateIlstDbg());
-  // stt.add(new my.StateAuthor());
-  // stt.add(new my.StateStgSel());
+  stt.add(new my.StateAuthor());
+  stt.add(new my.StateStgSel());
   stt.add(new my.StateMainGame());
 
 
